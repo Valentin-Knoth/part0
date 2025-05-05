@@ -19,7 +19,7 @@ sequenceDiagram
     Servidor-->>Navegador: Devuelve HTML actualizado
     Navegador->>Usuario: Muestra la nueva lista de Notas
 ```
-```
+```mermaid
 sequenceDiagram
 participant Usuario
 participant Navegador
@@ -34,7 +34,7 @@ participant Servidor
     Servidor-->>Navegador: JSON con las notas
     Navegador->>Usuario: Renderiza UI con las notas (JS manipula DOM)
 ```
-
+```mermaid
 sequenceDiagram
 participant Usuario
 participant Navegador
