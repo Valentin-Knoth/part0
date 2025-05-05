@@ -1,5 +1,5 @@
 # part0
-
+## 0.4 Ejercicio
 ```mermaid
 sequenceDiagram
     participant Usuario
@@ -19,6 +19,8 @@ sequenceDiagram
     Servidor-->>Navegador: Devuelve HTML actualizado
     Navegador->>Usuario: Muestra la nueva lista de Notas
 ```
+## 0.5 Ejercicio
+
 ```mermaid
 sequenceDiagram
 participant Usuario
@@ -34,6 +36,8 @@ participant Servidor
     Servidor-->>Navegador: JSON con las notas
     Navegador->>Usuario: Renderiza UI con las notas (JS manipula DOM)
 ```
+## 0.6 Ejercicio
+
 ```mermaid
 sequenceDiagram
 participant Usuario
