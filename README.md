@@ -19,7 +19,7 @@ sequenceDiagram
     Servidor-->>Navegador: Devuelve HTML actualizado
     Navegador->>Usuario: Muestra la nueva lista de Notas
 ```
-
+```
 sequenceDiagram
 participant Usuario
 participant Navegador
@@ -33,6 +33,7 @@ participant Servidor
     Navegador->>Servidor: GET /data.json
     Servidor-->>Navegador: JSON con las notas
     Navegador->>Usuario: Renderiza UI con las notas (JS manipula DOM)
+```
 
 sequenceDiagram
 participant Usuario
@@ -47,3 +48,4 @@ participant Servidor
     JS (main.js)->>Servidor: POST /new_note con JSON
     Servidor-->>JS (main.js): Respuesta OK
     JS (main.js)->>Navegador: Actualiza la vista con la nueva nota sin recargar
+```
